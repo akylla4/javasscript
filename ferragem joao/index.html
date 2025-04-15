@@ -6,19 +6,22 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>FERRAGENS JOÃO</h2>
     <label for="produto">produto</label>
     <select id="produto" >
-    <option value="">--selecione um produto</option>
-    <option value="parafuso">parafuso</option>
-    <option value="martelo"></option>
-    <option value="chave de fenda">chave de fenda</option>
-    <option value="serrote">serrote</option>
+        <option value="">--selecione um produto</option>
+        <option value="parafuso">parafuso</option>
+        <option value="martelo">martelo</option>
+        <option value="chave de fenda">chave de fenda</option>
+        <option value="serrote">serrote</option>
     </select>
    
 
     <label for="quantidade">quantidade:</label>
-    <input type="nuber" id="quantidade" placeholder="digite a quantidade"><br><br> <!--quantidade de produto-->
+    <input type="number" id="quantidade" placeholder="digite a quantidade"><br><br> <!--quantidade de produto-->
 
     <button onclick="calcularpreco()">calcular preço  do total</button>
+    <h4 id="resultado"></h4>
+    <script src="script.js"></script>
 </body>
 </html>
